@@ -4,7 +4,7 @@ from openai import OpenAI
 # Show title and description.
 st.title("💬 adlicious advisor")
 st.write(
-    "This is a simple chatbot that uses OpenAI's GPT-3.5 model to generate responses."
+    "Hello I am an AI bot: Chat with me about anything! Interested in running Ads with AI? Contact our adlicious team."
 )
 
 #openai_api_key = st.text_input("OpenAI API Key", type="password")
