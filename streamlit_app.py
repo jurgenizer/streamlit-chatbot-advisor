@@ -1,5 +1,4 @@
 import streamlit as st
-import os
 from openai import OpenAI
 
 # Show title and description.
@@ -9,7 +8,6 @@ st.write(
 )
 
 #openai_api_key = st.text_input("OpenAI API Key", type="password")
-os.environ["openai_api_key"] == st.secrets["OPENAI_API_KEY"],
 openai_api_key = st.secrets["OPENAI_API_KEY"]
 
 if not openai_api_key:
