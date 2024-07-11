@@ -9,7 +9,7 @@ st.write(
 )
 
 #openai_api_key = st.text_input("OpenAI API Key", type="password")
-os.environ["openai_api_key"] == st.secrets["openai_api_key"],
+os.environ["openai_api_key"] == st.secrets["OPENAI_API_KEY"],
 openai_api_key = st.secrets["OPENAI_API_KEY"]
 
 if not openai_api_key:
